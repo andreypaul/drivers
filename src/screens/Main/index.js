@@ -32,7 +32,7 @@ class Main extends React.PureComponent {
     drivers: [],
   };
 
-  async componentDidMount() {
+  componentDidMount() {
     this.props.getDrivers();
   }
 
